@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+#parent {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    display: inline-block;
+    /* flex-wrap: wrap;*/
+}
+
+
+#container {
+    background-color: red;
+    text-align: -webkit-center;
+    height: 45%;
+    /* margin: 0 auto; */
+    /* margin: auto; */
+    width: 49%;
+    position: relative;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* bottom: -50%; */
+    /* right: 50%; */
+    left: 25%;
+    /* right: 50%; */
+    top: 25%;
+}
+
+#one {
+    background-color: aqua;
+    height: 20px;
+    width: 33%;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+}
+
+
+#two {
+    background-color: blue;
+    height: 20px;
+    width: 33%;
+}
+
+
+#three {
+    background-color: chartreuse;
+    height: 20px;
+    width: 33%;
+}
+
